@@ -1,0 +1,19 @@
+#main-section {
+    height: 100%;
+    width: 100%;
+}
+
+#addClickButton {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: max(30vw, 30px);
+    
+    text-align: center;
+}
+
+#addClickButton:hover {
+    background-color: none;
+}

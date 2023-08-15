@@ -1,0 +1,24 @@
+#login-error {
+    color: #ff0000;
+    animation: shake .3s linear;
+}
+
+@keyframes shake {
+    0% {
+    transform: translate(-510px);
+    }
+    25% {
+        transform: translate(10px);
+    }
+    50% {
+        transform: translate(-10px);
+    }
+    75% {
+        transform: translate(10px);
+    }
+    100% {
+        transform: translate(-10px);
+    }
+
+
+}

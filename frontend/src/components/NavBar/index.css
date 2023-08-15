@@ -1,0 +1,42 @@
+:root {
+    --navbar-hover-antimation-duration: 0.3s;
+}
+
+#navBar {
+    padding: 10px;
+    display: flex;
+    background-color: #00ff00;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#navBarTitle {
+    vertical-align: middle;
+    height: 100%;
+}
+
+#navBarNav>ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    box-sizing: border-box;
+}
+
+#navBarNav>ul>li>a {
+    text-decoration: none;
+}
+
+#navBarNav>ul>li {
+    padding: 10px;
+    list-style: none;
+    transition: background-color var(--navbar-hover-antimation-duration);
+}
+
+#navBarNav>ul>li:hover {
+    list-style: none;
+    box-sizing: border-box;
+    background-color: aqua;
+    transition: background-color var(--navbar-hover-antimation-duration);
+}
